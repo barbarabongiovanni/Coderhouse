@@ -1,0 +1,29 @@
+html, body {margin:0; padding:0}
+body {font-family: sans-serif;}
+h2 {text-align: center;}
+a, a:visited, a:hover, a:active {text-decoration: none; color:inherit}
+div, p {font-size: 14px; line-height: 20px}
+ul {list-style: none; margin:0; padding:0;}
+
+
+/* GENERAL */
+
+.contenedor {padding:0 20px;}
+.clear {clear:both}
+.left {float:left}
+.right {float:right}
+
+
+/* HEADER */
+
+header {background-color:#ececec; padding: 20px;}
+header .logo {padding: 20px; font-size: 130%; margin: 0; background-color: black; color: white;}
+header nav {width: 34.8%; padding: 20px 0; }
+header ul li {display: inline-block; position:relative;margin-right: 10%; text-transform: lowercase; font-weight: bold; font-size: 90%; text-align: right}
+header ul li:hover {opacity: 0.5; filter: alpha(opacity=50);}
+header .ultima {margin-right:0;}
+
+header nav ul li ul {display:none; width:100px; padding-top:20px; position:absolute;}
+header nav ul li ul:hover, header nav ul li a:hover + ul {display: block}
+header nav ul li ul li {display:block; line-height: 25px; text-align: center; margin:0; background-color: #000000; color:#ffffff; padding: 10px}
+
